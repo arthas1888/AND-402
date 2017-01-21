@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Application1_1</string>
+    <string name="no_granted_permission">no se concedieron los permisos</string>
+    <string name="ok">Ok</string>
+</resources>
