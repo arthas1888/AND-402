@@ -45,10 +45,7 @@ public class MyContentProvider extends ContentProvider {
 
     @Override
     public String getType(Uri u) {
-        if (sUriMatcher.match(u) == DATUM)
-            return Constants.CONTENT_TYPE;
-        else
-            throw new IllegalArgumentException("Unknown URI " + u);
+        throw new IllegalArgumentException("Unknown URI " + u);
     }
 
     @Override
